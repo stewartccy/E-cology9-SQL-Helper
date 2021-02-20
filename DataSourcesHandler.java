@@ -23,6 +23,7 @@ import java.lang.reflect.Method;
 import java.util.*;
 
 /**
+ * 反射实现自动封装sql语句并执行语句再赋值
  * 数据处理类
  */
 public class DataSourcesHandler {
@@ -30,6 +31,7 @@ public class DataSourcesHandler {
     private final Log log = LogFactory.getLog(this.getClass());
 
     private final RecordSet rs = new RecordSet();
+
 
     /**
      * 根据ID查询
